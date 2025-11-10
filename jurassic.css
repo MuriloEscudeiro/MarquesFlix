@@ -1,0 +1,114 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden; /* Impede rolagem horizontal */
+}
+
+body {
+    background: linear-gradient(to top, black, rgb(129, 7, 7));
+    background-size: cover;
+    position: relative;
+}
+
+#conteudo {
+    height: 100%;
+    overflow-y: auto; /* Só permite rolar o conteúdo */
+}
+
+header {
+    background-color: rgb(14, 14, 14);
+    color: white;
+    height: 100px;
+    display: flex;
+}
+
+img{
+    height: 120px;
+    margin-top: -10px;
+}
+
+#inicio{
+    height: 30px;
+    margin-top: 35px;
+    margin-left: 50px;
+}
+
+input{
+    height: 20px;
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 40px;
+    margin-left: 80px;
+    border-radius: 7px;
+    border: solid 1px gray;
+    color: white;
+}
+
+#pesquisa{
+    height: 25px;
+    margin-top: 40px;
+    margin-left: 5px;
+}
+#emAlta{
+    margin-top: 44px;
+    margin-left:45px;
+}
+
+p{
+    margin-top: 45px;
+    margin-left: 20px;
+}
+
+
+
+#menu{
+    height: 30px;
+    margin-top: 35px;
+    margin-left: 200px;
+}
+
+
+#tipo{
+    margin-left: 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+    display: flex;
+}
+
+#filme{
+    margin-top: 20px;
+    height: 500px;
+    border-radius: 2px;
+    display: inline-block;
+    margin-left: 2px;
+}
+#texto{
+    margin-left: 100px;
+    align-items: center;
+    color: white;   
+    width: 400px;
+}
+
+
+
+#nota-filme {
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+}
+  
+.estrelas {
+    font-size: 20px;
+    margin-left: 20px;
+    color: gold;
+}
+
+#total{
+    margin-top: -20px;
+}
+
+
+  
+a{
+    text-decoration: none;
+}
