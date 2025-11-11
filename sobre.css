@@ -122,6 +122,7 @@ a {
     margin-bottom: 20px;
     text-shadow: 0 0 10px rgba(255, 0, 0, 0.6);
 }
+
 #curiosidades {
     margin-top: 20px;
     width: 100%;
@@ -171,54 +172,50 @@ hr {
   
 
 
-  
-#LugaesVisitados {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 60px;
-    margin-top: 70px;
-    flex-wrap: wrap;
-    padding: 40px;
-    background: rgba(0, 0, 0, 0.4);
-    border-radius: 20px;
-    max-width: 1300px;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 0 0 25px rgba(255, 0, 0, 0.3);
-}
-#LugaresTexto {
-    display: flex;
-    gap: 40px;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-#Lugaresimg {
-    margin-right: 645px;
-    width: 450px;
-    height: auto;
-    border-radius: 20px;
-    box-shadow: 0 0 25px rgba(255, 0, 0, 0.4);
-}
 
-
-
-#LugaresTexto {
-    max-width: 500px;
+  #lugaresVisitados {
+    margin-top: 20px;
+    width: 100%;
     color: white;
     text-align: justify;
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
 }
-
-#LugaresTexto h2 {
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 20px;
+#textolugaresVisitados{
+    width: 100%;
+    display: flex;
+    gap: 80px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#lugaresVisitados h2 {
+    text-align: left;
+    font-size: 60px;
     text-shadow: 0 0 10px rgba(255, 0, 0, 0.6);
 }
 
+#listalugaresVisitados h2{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 40px;
+    margin-right: 50px;
+    margin-left: -50px;
+}
+#listalugaresVisitados ul li {
+    margin-bottom: 20px;
+    color: white;
+    margin-left: -50px;
+}
+#fotolugaresVisitados {
+    width: auto;
+    height: 500px;
+    border-radius: 20px;
+    object-fit: cover;
+}
 
-
-  
+a {
+    color: white;
+}
