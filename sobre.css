@@ -220,3 +220,48 @@ hr {
 a {
     color: white;
 }
+
+
+#lugaresDesejados {
+    margin-top: 20px;
+    width: 100%;
+    color: white;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+}
+#textolugaresDesejados{
+    width: 100%;
+    display: flex;
+    gap: 80px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#lugaresDesejados h2 {
+    text-align: left;
+    font-size: 60px;
+    text-shadow: 0 0 10px rgba(255, 0, 0, 0.6);
+}
+
+#listalugaresDesejados h2{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 40px;
+    margin-right: 50px;
+    margin-left: 9px;
+}
+#listalugaresDesejados ul li {
+    margin-bottom: 20px;
+    color: white;
+    margin-left: -50px;
+}
+#fotolugaresDesejados {
+    width: auto;
+    height: 500px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-left: -100px;
+}
