@@ -1,7 +1,7 @@
 html, body {
     height: 100%;
     margin: 0;
-    overflow-x: hidden; /* Impede rolagem horizontal */
+    overflow-x: hidden; 
 }
 
 body {
@@ -12,28 +12,22 @@ body {
 
 #conteudo {
     height: 100%;
-    overflow-y: auto; /* Só permite rolar o conteúdo */
+    overflow-y: auto; 
 }
 
-header {
-    background-color: rgb(14, 14, 14);
-    color: white;
-    height: 100px;
-    display: flex;
-}
 
-img{
+img {
     height: 120px;
     margin-top: -10px;
 }
 
-#inicio{
+#inicio {
     height: 30px;
     margin-top: 35px;
     margin-left: 50px;
 }
 
-input{
+input {
     height: 20px;
     width: 600px;
     background-color: rgba(0, 0, 0, 0);
@@ -44,22 +38,27 @@ input{
     color: white;
 }
 
-#pesquisa{
+#pesquisa {
     height: 25px;
     margin-top: 40px;
     margin-left: 5px;
 }
-#emAlta{
+
+#emAlta {
     margin-top: 44px;
-    margin-left:45px;
+    margin-left: 45px;
 }
 
-p{
+p {
     margin-top: 45px;
     margin-left: 20px;
 }
 
-
+#sobre {
+    margin-top: 45px;
+    margin-left: 90px;
+    color: white;
+}
 
 #menu{
     height: 30px;
@@ -110,4 +109,3 @@ p{
 a{
     text-decoration: none;
 }
-  

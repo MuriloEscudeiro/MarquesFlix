@@ -15,12 +15,7 @@ body {
     overflow-y: auto; /* Só permite rolar o conteúdo */
 }
 
-header {
-    background-color: rgb(14, 14, 14);
-    color: white;
-    height: 100px;
-    display: flex;
-}
+
 
 img{
     height: 120px;
